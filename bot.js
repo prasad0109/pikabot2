@@ -22,7 +22,7 @@ server.headersTimeout = 66000;
 
 // ================= DISCORD =================
 const DISCORD_TOKEN = process.env.TOKEN;
-const CHANNEL_ID = "1509812381331619882";
+const CHANNEL_ID = "1515661722147618979";
 
 const client = new Client({
   intents: [
