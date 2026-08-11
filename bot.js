@@ -108,7 +108,7 @@ function createBot() {
         setTimeout(() => {
           if (!bot) return;
 
-          bot.chat("/server oplifesteal");
+          bot.chat("/server survival");
         }, 3000);
       }, 5000);
     } catch (err) {
