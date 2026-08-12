@@ -12,7 +12,7 @@
       "commands": [
         "/register {password} {password}",
         "/login {password}",
-        "/server oplifesteal"
+        "/server survival"
       ]
     },
     "antiAfk": {
