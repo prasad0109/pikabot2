@@ -103,7 +103,7 @@ function createBot() {
       setTimeout(() => {
         if (!bot) return;
 
-        bot.chat("/login SANAP@2009");
+        bot.chat("/login Harshu@1234");
 
         setTimeout(() => {
           if (!bot) return;
