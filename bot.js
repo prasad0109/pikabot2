@@ -108,7 +108,7 @@ function createBot() {
         setTimeout(() => {
           if (!bot) return;
 
-          bot.chat("/server opskyblock");
+          bot.chat("/server survival");
         }, 3000);
       }, 5000);
     } catch (err) {
@@ -128,7 +128,7 @@ function createBot() {
 
       // Auto server join
       if (msg.includes("Right click the")) {
-        bot.chat("/server opskyblock");
+        bot.chat("/server survival");
       }
     } catch (err) {
       console.error("Message handler error:", err.message);
